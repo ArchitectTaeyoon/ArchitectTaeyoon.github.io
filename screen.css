@@ -55,7 +55,7 @@ table {
 
 p {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #b4def0
+  color: #055c91
 }
 
 body {
@@ -73,7 +73,7 @@ h1 {
   line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
   padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
   padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
-  color: #056691
+  color: #9bbdd3
 }
 
 h2 {
@@ -81,7 +81,7 @@ h2 {
   line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
   padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
   padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
-  color: #056691
+  color: #9bbdd3
 }
 
 h3 {
@@ -89,7 +89,7 @@ h3 {
   line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
   padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
   padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
-  color: #056691
+  color: #9bbdd3
 }
 
 
