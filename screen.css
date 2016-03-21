@@ -53,8 +53,9 @@ table {
   http://www.modularscale.com/?18&px&1.2&web&text
 */
 
-a {
-  background-color: #222;
+p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #c1c1c1
 }
 
 body {
@@ -80,7 +81,7 @@ h2 {
   line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
   padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
   padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
-  color:"white"
+  color: white
 }
 
 h3 {
@@ -88,7 +89,7 @@ h3 {
   line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
   padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
   padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
-  color: "white"
+  color: white
 }
 
 
