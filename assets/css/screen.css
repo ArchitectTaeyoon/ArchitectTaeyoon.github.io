@@ -93,17 +93,16 @@ h3 {
 }
 
 
-img {
-  display: block;
-  max-width: 100%;
-  padding-bottom: 1.4400000000000002em; /* 25.92px / 18px */
+images {
+  margin-left: 45.454545454545%;
+  width: 54.545454545454%;
 }
 
 @media screen and (min-width: 33.333333333333336em) {
   figure {
     position: relative;
   }
-  img {
+  .fleximg {
      margin-left: 45.454545454545%;
      width: 54.545454545454%;
   }
@@ -113,5 +112,25 @@ img {
     top: 0;
     left: 0;
   }
+}
+
+    /* Flexbox style */
+
+
+  .flexbox figure {
+    position: static;
+    display: flex;
+  }
+  .flexbox .images {
+    margin-left: 0;
+    width: auto;
+    flex-basis: 54.545454545454%;
+  }
+  .flexbox figcaption {
+    position: static;
+    width: auto;
+    flex-basis: 45.454545454545%;
+  }
+
 }
 
