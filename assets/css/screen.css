@@ -121,17 +121,18 @@ img {
   a:link {
     position: left;
     color: #9bbdd3;
+    text-decoration: none;
   }
   a:visited {
     color: #055c91;
+    text-decoration: none;
   }
   a:hover {
     color: #055c91;
   }
   a:active {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.728em;
     color: #055c91;
+    text-decoration: none;
   }
 }
 
