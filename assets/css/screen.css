@@ -122,17 +122,26 @@ img {
     position: left;
     color: #9bbdd3;
     text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.728em;
   }
   a:visited {
     color: #055c91;
     text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.728em;
   }
   a:hover {
     color: #055c91;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.728em;
   }
   a:active {
     color: #055c91;
     text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.728em;
   }
 }
 
