@@ -1,0 +1,33 @@
+%html
+  %head
+    %title {Taeyoon Kim}
+    %link{rel: "stylesheet", href: "https://github.com/ArchitectTaeyoon/ArchitectTaeyoon.github.io.git/assets/css/screen.css"}
+  %body
+    %header#header
+      %h1
+        %a{href: "{BlogURL}"} {Taeyoon's Tumblr Blog}
+      %p {Description} Read this site via
+        %a{href: "{RSS}"} RSS
+      .main
+        {block:Posts}
+        {block:Text}
+        %article.text
+          %header
+            %h2
+              {block:IndexPage}
+              %a{href: "{Permalink}"} {Title}
+              {/block:IndexPage}
+              {block:PermalinkPage}
+              {Title}
+              {/block:PermalinkPage}
+          .content {Body}
+          %footer
+            %p Posted at {12Hour}:{Minutes}{AmPm} {Month} {DayOfMonth}, {Year}
+        {/block:Text}
+        {block:Photo}
+        %article.photo
+          %figure{aria-labelledby: "photo{PostID}"}
+            %img{src: "{PhotoURL-HighRes}", alt: "{PhotoAlt}"}
+            %figcaption{id: "photo{PostID}"} {Caption}
+        {/block:Photo}
+        {/block:Posts}
